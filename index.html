@@ -1,0 +1,1940 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>欧洲一久久一久久一免费在线播放_欧洲剧集电影在线_欧洲影音片单速递</title>
+  <meta name="description" content="欧洲一久久一久久一免费在线播放提供欧洲剧集、电影、纪录片与综艺的在线观看入口与片单。涵盖北欧悬疑、英伦剧情、法式文艺与德奥历史剧，适合剧迷与影迷按类型筛选与追更。" />
+  <meta name="keywords" content="欧洲剧集在线,北欧悬疑剧,英伦剧情片,法式文艺电影,德奥历史剧" />
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --bg-soft: #11141c;
+      --panel: #161a24;
+      --panel-2: #1c2130;
+      --line: #262c3a;
+      --line-soft: #1f2532;
+      --text: #e8ecf4;
+      --text-2: #aab3c5;
+      --text-3: #7b8497;
+      --brand: #7c5cff;
+      --brand-2: #9d86ff;
+      --accent: #ffb547;
+      --accent-2: #ff7a59;
+      --ok: #4fd1a5;
+      --radius: 14px;
+      --radius-sm: 10px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --shadow-sm: 0 4px 14px rgba(0,0,0,.25);
+      --container: 1340px;
+      --gap: 22px;
+      --header-h: 68px;
+      --notice-h: 40px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(1200px 600px at 12% -10%, rgba(124,92,255,.18), transparent 60%),
+        radial-gradient(900px 500px at 90% 0%, rgba(255,181,71,.08), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    button { font: inherit; }
+
+    :focus-visible {
+      outline: 2px solid var(--brand-2);
+      outline-offset: 2px;
+      border-radius: 6px;
+    }
+
+    .container {
+      width: min(100% - 32px, var(--container));
+      margin-inline: auto;
+    }
+
+    /* ---------- 吸顶公告 + 页头 ---------- */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 60;
+      backdrop-filter: blur(12px);
+      background: rgba(11,13,18,.82);
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .notice {
+      height: var(--notice-h);
+      display: flex;
+      align-items: center;
+      background: linear-gradient(90deg, rgba(124,92,255,.22), rgba(255,181,71,.08));
+      border-bottom: 1px solid var(--line-soft);
+    }
+    .notice .container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .notice .tag {
+      flex: 0 0 auto;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      color: #0b0d12;
+      background: var(--accent);
+      padding: 2px 9px;
+      border-radius: 999px;
+    }
+    .notice .n-text {
+      font-size: 13px;
+      color: var(--text-2);
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .notice .n-text b { color: var(--text); font-weight: 600; }
+
+    .header {
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+    }
+    .header .container {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      width: 100%;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 0 0 auto;
+    }
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 11px;
+      background: linear-gradient(135deg, var(--brand), #4a2fd6 60%, #2b1a80);
+      display: grid;
+      place-items: center;
+      box-shadow: 0 6px 18px rgba(124,92,255,.35), inset 0 1px 0 rgba(255,255,255,.25);
+    }
+    .brand-mark svg { width: 22px; height: 22px; }
+    .brand-name {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: .02em;
+      white-space: nowrap;
+    }
+    .brand-name span { color: var(--brand-2); }
+
+    .mainnav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+    }
+    .mainnav a {
+      padding: 7px 11px;
+      border-radius: 999px;
+      font-size: 13.5px;
+      color: var(--text-2);
+      white-space: nowrap;
+      transition: background .15s, color .15s;
+    }
+    .mainnav a:hover { color: var(--text); background: var(--panel-2); }
+    .mainnav a.active { color: #fff; background: rgba(124,92,255,.22); border: 1px solid rgba(124,92,255,.35); }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 0 0 auto;
+    }
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 6px 5px 12px;
+      transition: border-color .15s;
+    }
+    .search:focus-within { border-color: var(--brand); }
+    .search svg { width: 15px; height: 15px; color: var(--text-3); flex: 0 0 auto; }
+    .search input {
+      width: 150px;
+      background: transparent;
+      border: 0;
+      color: var(--text);
+      font-size: 13px;
+      outline: none;
+    }
+    .search input::placeholder { color: var(--text-3); }
+    .search button {
+      border: 0;
+      background: var(--brand);
+      color: #fff;
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .search button:hover { background: var(--brand-2); }
+
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text-2);
+      font-size: 13px;
+      padding: 7px 13px;
+      border-radius: 999px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .btn-ghost:hover { color: var(--text); border-color: var(--brand); }
+
+    /* ---------- 首屏 ---------- */
+    .hero {
+      position: relative;
+      padding: 38px 0 26px;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: -40% -10% auto auto;
+      width: 620px;
+      height: 620px;
+      background: radial-gradient(circle, rgba(124,92,255,.20), transparent 65%);
+      pointer-events: none;
+    }
+    .hero .container {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 34px;
+      align-items: center;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12.5px;
+      color: var(--text-2);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      padding: 5px 12px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    .hero-eyebrow .dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--ok);
+      box-shadow: 0 0 0 4px rgba(79,209,165,.15);
+    }
+    .hero h1 {
+      font-size: clamp(28px, 3.4vw, 44px);
+      line-height: 1.22;
+      margin: 0 0 14px;
+      letter-spacing: -.01em;
+      font-weight: 900;
+    }
+    .hero h1 em {
+      font-style: normal;
+      background: linear-gradient(92deg, var(--brand-2), var(--accent));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero-desc {
+      margin: 0 0 22px;
+      color: var(--text-2);
+      font-size: 15px;
+      max-width: 60ch;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 20px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: transform .12s, background .15s, border-color .15s;
+    }
+    .btn:active { transform: translateY(1px); }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--brand), #5b3ee0);
+      color: #fff;
+      box-shadow: 0 10px 24px rgba(124,92,255,.32);
+    }
+    .btn-primary:hover { background: linear-gradient(135deg, var(--brand-2), #6a4cf0); }
+    .btn-outline {
+      background: transparent;
+      border-color: var(--line);
+      color: var(--text);
+    }
+    .btn-outline:hover { border-color: var(--brand); background: var(--panel); }
+
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 26px;
+      padding-top: 8px;
+      border-top: 1px solid var(--line-soft);
+    }
+    .hero-stats .s b {
+      display: block;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .hero-stats .s span { font-size: 12.5px; color: var(--text-3); }
+
+    /* 首屏视觉 */
+    .hero-visual {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: linear-gradient(160deg, #1a1f2e, #0e1118);
+      box-shadow: var(--shadow);
+      aspect-ratio: 16 / 11;
+    }
+    .hero-visual svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .hero-visual .badge {
+      position: absolute;
+      left: 16px;
+      bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(11,13,18,.72);
+      border: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+      padding: 8px 12px;
+      border-radius: 12px;
+      font-size: 12.5px;
+      color: var(--text-2);
+    }
+    .hero-visual .badge .pulse {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--accent-2);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 0 0 0 rgba(255,122,89,.5); }
+      50% { box-shadow: 0 0 0 7px rgba(255,122,89,0); }
+    }
+
+    /* ---------- 三栏门户布局 ---------- */
+    .layout {
+      display: grid;
+      grid-template-columns: 180px minmax(0, 1fr) 250px;
+      gap: var(--gap);
+      align-items: start;
+      padding: 14px 0 10px;
+    }
+
+    .col-left, .col-right { position: sticky; top: calc(var(--notice-h) + var(--header-h) + 16px); }
+
+    .side-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px;
+      margin-bottom: 16px;
+    }
+    .side-title {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      color: var(--text-3);
+      text-transform: uppercase;
+      margin: 0 0 10px;
+    }
+    .chan-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+    .chan-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      color: var(--text-2);
+      transition: background .15s, color .15s;
+    }
+    .chan-list a:hover { background: var(--panel-2); color: var(--text); }
+    .chan-list a .c {
+      font-size: 11px;
+      color: var(--text-3);
+      background: var(--bg-soft);
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      padding: 1px 7px;
+    }
+
+    .hot-list { list-style: none; margin: 0; padding: 0; counter-reset: hot; display: grid; gap: 10px; }
+    .hot-list li {
+      counter-increment: hot;
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-2);
+      line-height: 1.5;
+    }
+    .hot-list li::before {
+      content: counter(hot);
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--text-3);
+      background: var(--bg-soft);
+      border: 1px solid var(--line-soft);
+      border-radius: 6px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      margin-top: 1px;
+    }
+    .hot-list li:nth-child(-n+3)::before { color: var(--accent); border-color: rgba(255,181,71,.35); }
+    .hot-list a:hover { color: var(--brand-2); }
+    .hot-list small { display: block; color: var(--text-3); font-size: 11.5px; }
+
+    .update-stream { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+    .update-stream li { font-size: 12.5px; color: var(--text-2); display: flex; gap: 7px; }
+    .update-stream .t { color: var(--text-3); flex: 0 0 auto; font-variant-numeric: tabular-nums; }
+    .update-stream a:hover { color: var(--brand-2); }
+
+    /* ---------- 主内容 ---------- */
+    .main-col { min-width: 0; }
+
+    .section {
+      margin-bottom: 30px;
+      scroll-margin-top: calc(var(--notice-h) + var(--header-h) + 20px);
+    }
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    .section-head h2 {
+      font-size: 20px;
+      font-weight: 800;
+      margin: 0;
+      letter-spacing: -.01em;
+    }
+    .section-head .sub {
+      font-size: 12.5px;
+      color: var(--text-3);
+      margin-top: 2px;
+    }
+    .section-head .more {
+      font-size: 12.5px;
+      color: var(--brand-2);
+      white-space: nowrap;
+      border-bottom: 1px dashed rgba(157,134,255,.4);
+      padding-bottom: 1px;
+    }
+    .section-head .more:hover { color: var(--accent); border-color: rgba(255,181,71,.5); }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    .overview-text p { margin: 0 0 12px; color: var(--text-2); font-size: 14.5px; }
+    .overview-text p:last-child { margin-bottom: 0; }
+    .overview-text strong { color: var(--text); }
+
+    /* 精选卡片 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: border-color .15s, transform .15s;
+    }
+    .card:hover { border-color: rgba(124,92,255,.5); transform: translateY(-2px); }
+    .card-thumb {
+      position: relative;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: var(--panel-2);
+    }
+    .card-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+    .card:hover .card-thumb img { transform: scale(1.04); }
+    .card-thumb .type {
+      position: absolute;
+      top: 8px; left: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+      background: rgba(124,92,255,.9);
+      padding: 2px 8px;
+      border-radius: 6px;
+      backdrop-filter: blur(4px);
+    }
+    .card-thumb .score {
+      position: absolute;
+      bottom: 8px; right: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      background: rgba(11,13,18,.78);
+      border: 1px solid rgba(255,181,71,.3);
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+    .card-body { padding: 12px 13px 14px; display: flex; flex-direction: column; gap: 7px; flex: 1; }
+    .card-body h3 {
+      font-size: 14.5px;
+      font-weight: 700;
+      margin: 0;
+      line-height: 1.4;
+    }
+    .card-body p {
+      margin: 0;
+      font-size: 12.5px;
+      color: var(--text-3);
+      line-height: 1.62;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
+    .tag-sm {
+      font-size: 11px;
+      color: var(--text-2);
+      background: var(--bg-soft);
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      padding: 1px 8px;
+    }
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 11.5px;
+      color: var(--text-3);
+      border-top: 1px solid var(--line-soft);
+      padding-top: 8px;
+    }
+    .card-meta .hot { color: var(--accent-2); }
+
+    /* 最新更新列表 */
+    .update-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0 22px;
+    }
+    .update-item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 6px 12px;
+      padding: 11px 0;
+      border-bottom: 1px dashed var(--line-soft);
+      font-size: 13.5px;
+    }
+    .update-item .u-title { font-weight: 600; color: var(--text); }
+    .update-item .u-title:hover { color: var(--brand-2); }
+    .update-item .u-time { font-size: 11.5px; color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .update-item .u-desc { grid-column: 1 / -1; font-size: 12.5px; color: var(--text-3); }
+    .update-item .u-desc b { color: var(--text-2); font-weight: 500; }
+
+    /* 分类入口 */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .cat-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      transition: border-color .15s, background .15s;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .cat-card:hover { border-color: rgba(124,92,255,.5); background: var(--panel-2); }
+    .cat-card .c-name { font-size: 14px; font-weight: 700; }
+    .cat-card .c-desc { font-size: 11.5px; color: var(--text-3); line-height: 1.5; }
+    .cat-card .c-count { font-size: 11px; color: var(--brand-2); margin-top: 2px; }
+
+    /* 深度解析 */
+    .deep h3 {
+      font-size: 16px;
+      font-weight: 800;
+      margin: 22px 0 8px;
+      padding-left: 10px;
+      border-left: 3px solid var(--brand);
+      line-height: 1.4;
+    }
+    .deep h3:first-child { margin-top: 0; }
+    .deep p { margin: 0 0 11px; font-size: 14px; color: var(--text-2); }
+    .deep ul { margin: 0 0 12px; padding-left: 20px; color: var(--text-2); font-size: 14px; }
+    .deep li { margin-bottom: 5px; }
+    .deep strong { color: var(--text); }
+    .deep .callout {
+      background: rgba(124,92,255,.08);
+      border: 1px solid rgba(124,92,255,.25);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+      font-size: 13.5px;
+      color: var(--text-2);
+      margin: 12px 0;
+    }
+
+    /* 体验指南 */
+    .steps { display: grid; gap: 12px; counter-reset: step; }
+    .step {
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      gap: 12px;
+      align-items: start;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+    }
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      width: 30px; height: 30px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--brand), #4a2fd6);
+      color: #fff;
+      font-weight: 800;
+      font-size: 14px;
+      display: grid;
+      place-items: center;
+      margin-top: 1px;
+    }
+    .step h4 { margin: 0 0 4px; font-size: 14.5px; font-weight: 700; }
+    .step p { margin: 0; font-size: 13px; color: var(--text-3); }
+
+    /* FAQ */
+    .faq details {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+    .faq details[open] { border-color: rgba(124,92,255,.45); }
+    .faq summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 13px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after {
+      content: "+";
+      font-size: 18px;
+      color: var(--brand-2);
+      font-weight: 400;
+      line-height: 1;
+      transition: transform .2s;
+    }
+    .faq details[open] summary::after { content: "–"; }
+    .faq .a {
+      padding: 0 16px 15px;
+      font-size: 13.5px;
+      color: var(--text-2);
+      line-height: 1.75;
+    }
+    .faq .a b { color: var(--text); }
+
+    /* 评论 */
+    .comment-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .comment {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 13px 14px;
+      font-size: 13px;
+    }
+    .comment .c-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 7px;
+    }
+    .avatar {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand), var(--accent));
+      color: #0b0d12;
+      font-weight: 800;
+      font-size: 12px;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+    }
+    .comment .nick { font-weight: 700; font-size: 13px; color: var(--text); }
+    .comment .c-time { margin-left: auto; font-size: 11px; color: var(--text-3); }
+    .comment p { margin: 0; color: var(--text-2); line-height: 1.72; }
+    .comment .c-tag { display: inline-block; margin-top: 7px; font-size: 11px; color: var(--brand-2); }
+
+    /* 相关资讯 */
+    .news-list { display: grid; gap: 12px; }
+    .news-item {
+      display: grid;
+      grid-template-columns: 132px 1fr;
+      gap: 14px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      transition: border-color .15s;
+    }
+    .news-item:hover { border-color: rgba(124,92,255,.45); }
+    .news-item img { width: 100%; height: 100%; min-height: 88px; object-fit: cover; }
+    .news-body { padding: 11px 14px 12px 0; min-width: 0; }
+    .news-body .n-date { font-size: 11.5px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+    .news-body h4 { margin: 3px 0 4px; font-size: 14px; font-weight: 700; line-height: 1.45; }
+    .news-body h4:hover { color: var(--brand-2); }
+    .news-body p { margin: 0; font-size: 12.5px; color: var(--text-3); line-height: 1.6; }
+
+    /* 相关推荐（标签索引） */
+    .tag-index { display: flex; flex-wrap: wrap; gap: 9px; }
+    .tag-index a {
+      font-size: 13px;
+      padding: 6px 13px;
+      border-radius: 999px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: var(--text-2);
+      transition: border-color .15s, color .15s, background .15s;
+    }
+    .tag-index a:hover { border-color: var(--brand); color: var(--text); background: var(--panel-2); }
+
+    /* 补充：时间线 + 可信度分层 */
+    .timeline { position: relative; padding-left: 22px; }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 6px; top: 4px; bottom: 4px;
+      width: 2px;
+      background: linear-gradient(var(--brand), rgba(124,92,255,.1));
+      border-radius: 2px;
+    }
+    .tl-item { position: relative; padding: 0 0 16px; font-size: 13.5px; }
+    .tl-item::before {
+      content: "";
+      position: absolute;
+      left: -22px; top: 7px;
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: 2px solid var(--brand);
+    }
+    .tl-item:last-child { padding-bottom: 0; }
+    .tl-item .tl-date { font-size: 11.5px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+    .tl-item .tl-title { font-weight: 700; color: var(--text); }
+    .tl-item .tl-desc { font-size: 12.5px; color: var(--text-3); margin-top: 2px; }
+
+    .tier-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    .tier {
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+    .tier .t-name { font-size: 13px; font-weight: 800; margin-bottom: 4px; }
+    .tier .t-desc { font-size: 12px; color: var(--text-3); line-height: 1.6; }
+    .tier.t1 { border-color: rgba(79,209,165,.4); }
+    .tier.t1 .t-name { color: var(--ok); }
+    .tier.t2 { border-color: rgba(255,181,71,.4); }
+    .tier.t2 .t-name { color: var(--accent); }
+    .tier.t3 { border-color: rgba(255,122,89,.4); }
+    .tier.t3 .t-name { color: var(--accent-2); }
+
+    /* 搜索无结果 */
+    .no-result {
+      display: none;
+      background: var(--panel);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius-sm);
+      padding: 16px;
+      color: var(--text-3);
+      font-size: 13.5px;
+      text-align: center;
+      margin-top: 12px;
+    }
+    .no-result.show { display: block; }
+
+    /* ---------- 页尾 ---------- */
+    .footer {
+      margin-top: 30px;
+      border-top: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(17,20,28,.4), rgba(11,13,18,.9));
+      padding: 36px 0 22px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr 1fr 1fr;
+      gap: 26px;
+      margin-bottom: 26px;
+    }
+    .footer .brand { margin-bottom: 10px; }
+    .footer-desc { font-size: 13px; color: var(--text-3); line-height: 1.7; max-width: 34ch; }
+    .footer h5 {
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: .06em;
+      color: var(--text-2);
+      margin: 0 0 10px;
+      text-transform: uppercase;
+    }
+    .footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+    .footer ul a { font-size: 13px; color: var(--text-3); }
+    .footer ul a:hover { color: var(--brand-2); }
+    .footer-bottom {
+      border-top: 1px solid var(--line-soft);
+      padding-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--text-3);
+    }
+    .footer-bottom .links { display: flex; flex-wrap: wrap; gap: 14px; }
+
+    /* ---------- 响应式 ---------- */
+    @media (max-width: 1180px) {
+      .layout { grid-template-columns: 168px minmax(0, 1fr); }
+      .col-right { display: none; }
+      .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .footer-grid { grid-template-columns: 1.2fr 1fr 1fr; }
+    }
+
+    @media (max-width: 1024px) {
+      .hero .container { grid-template-columns: 1fr; gap: 24px; }
+      .hero-visual { max-width: 620px; }
+      .layout { grid-template-columns: 1fr; }
+      .col-left { position: static; }
+      .chan-list {
+        display: flex;
+        overflow-x: auto;
+        gap: 6px;
+        padding-bottom: 4px;
+        scrollbar-width: thin;
+      }
+      .chan-list a { white-space: nowrap; flex: 0 0 auto; }
+      .mainnav { display: none; }
+      .search input { width: 120px; }
+      .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 740px) {
+      :root { --gap: 16px; }
+      .header .container { gap: 10px; }
+      .brand-name { font-size: 14px; }
+      .header-actions .btn-ghost { display: none; }
+      .search input { width: 96px; }
+      .hero { padding: 24px 0 18px; }
+      .hero-stats { gap: 18px; }
+      .card-grid { grid-template-columns: 1fr; }
+      .update-grid { grid-template-columns: 1fr; }
+      .cat-grid { grid-template-columns: 1fr 1fr; }
+      .comment-grid { grid-template-columns: 1fr; }
+      .news-item { grid-template-columns: 96px 1fr; }
+      .tier-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .notice .n-text { font-size: 12px; }
+      .hero h1 { font-size: 26px; }
+      .section-head h2 { font-size: 18px; }
+    }
+
+    @media (max-width: 420px) {
+      .cat-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .search input { width: 84px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+    }
+  </style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+  <!-- 吸顶公告条 + 页头 -->
+  <div class="topbar">
+    <div class="notice">
+      <div class="container">
+        <span class="tag">今日更新</span>
+        <span class="n-text">
+          <b>11 月 25 日</b> 新增《北境暗流》第 6 集、《巴黎左岸》第 3 集；<b>北欧悬疑专题</b>上新 8 部片单；德奥历史剧《王冠与铁轨》完整版上线。
+        </span>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <a class="brand" href="/#top" aria-label="欧洲一久久一久久一免费在线播放首页">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Z" stroke="white" stroke-width="1.6"/>
+              <path d="M10 9.2v5.6l4.6-2.8L10 9.2Z" fill="white"/>
+            </svg>
+          </span>
+          <span class="brand-name">欧洲一久久一久久一<span>免费在线播放</span></span>
+        </a>
+
+        <nav class="mainnav" aria-label="主导航">
+          <a href="/#overview" class="active">概览</a>
+          <a href="/#picks">精选</a>
+          <a href="/#updates">更新</a>
+          <a href="/#categories">分类</a>
+          <a href="/#deep">深度</a>
+          <a href="/#guide">指南</a>
+          <a href="/#faq">问答</a>
+          <a href="/#comments">评论</a>
+        </nav>
+
+        <div class="header-actions">
+          <form class="search" role="search" id="searchForm" onsubmit="return false;">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <input type="search" id="searchInput" placeholder="搜索剧集 / 电影 / 纪录片" aria-label="站内搜索" />
+            <button type="button" id="searchBtn">查找</button>
+          </form>
+          <button class="btn-ghost" type="button" onclick="alert('片单收藏功能即将开放，当前可先按分类浏览。')">我的片单</button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <main id="top">
+    <!-- 首屏 -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div>
+          <span class="hero-eyebrow"><span class="dot"></span>欧洲剧集 · 电影 · 纪录片 · 在线观看入口</span>
+          <h1 id="hero-title">欧洲一久久一久久一<em>免费在线播放</em></h1>
+          <p class="hero-desc">
+            聚合北欧悬疑、英伦剧情、法式文艺、德奥历史剧与南欧喜剧五大方向，覆盖近期上线的剧集与电影条目，提供类型标签、看点摘要与更新节奏，方便按国家、题材与口碑快速定位想看的欧洲内容。
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="/#picks">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 5.5v13l11-6.5-11-6.5Z" fill="white"/></svg>
+              查看今日精选
+            </a>
+            <a class="btn btn-outline" href="/#categories">按国家与类型筛选</a>
+          </div>
+          <div class="hero-stats">
+            <div class="s"><b>1,286</b><span>在架条目</span></div>
+            <div class="s"><b>42</b><span>欧洲国家覆盖</span></div>
+            <div class="s"><b>今日 11</b><span>新增更新</span></div>
+            <div class="s"><b>4.6</b><span>社区均分</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <svg viewBox="0 0 560 390" preserveAspectRatio="xMidYMid slice" role="img" aria-label="欧洲城市夜景与播放界面构成的主题视觉">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#1b2036"/>
+                <stop offset="1" stop-color="#0b0d12"/>
+              </linearGradient>
+              <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#7c5cff" stop-opacity=".55"/>
+                <stop offset="1" stop-color="#ffb547" stop-opacity=".18"/>
+              </linearGradient>
+              <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#2a2140"/>
+                <stop offset="1" stop-color="#141826"/>
+              </linearGradient>
+            </defs>
+            <rect width="560" height="390" fill="url(#sky)"/>
+            <circle cx="430" cy="86" r="54" fill="url(#glow)"/>
+            <circle cx="430" cy="86" r="26" fill="#ffd88a" opacity=".85"/>
+            <!-- 天际线 -->
+            <g fill="#141826" opacity=".95">
+              <rect x="20" y="210" width="42" height="140"/>
+              <rect x="68" y="176" width="34" height="174"/>
+              <rect x="108" y="228" width="52" height="122"/>
+              <rect x="166" y="196" width="30" height="154"/>
+              <rect x="202" y="150" width="44" height="200"/>
+              <rect x="252" y="214" width="38" height="136"/>
+              <rect x="296" y="182" width="28" height="168"/>
+              <rect x="330" y="236" width="54" height="114"/>
+              <rect x="390" y="200" width="36" height="150"/>
+              <rect x="432" y="244" width="48" height="106"/>
+              <rect x="486" y="222" width="52" height="128"/>
+            </g>
+            <!-- 窗户光点 -->
+            <g fill="#9d86ff" opacity=".7">
+              <rect x="76" y="190" width="5" height="6"/><rect x="86" y="190" width="5" height="6"/>
+              <rect x="76" y="204" width="5" height="6"/><rect x="86" y="204" width="5" height="6"/>
+              <rect x="212" y="166" width="6" height="7"/><rect x="224" y="166" width="6" height="7"/>
+              <rect x="212" y="182" width="6" height="7"/><rect x="224" y="182" width="6" height="7"/>
+              <rect x="212" y="198" width="6" height="7"/>
+              <rect x="398" y="214" width="5" height="6"/><rect x="410" y="214" width="5" height="6"/>
+              <rect x="398" y="230" width="5" height="6"/>
+            </g>
+            <!-- 播放面板 -->
+            <g>
+              <rect x="70" y="64" width="330" height="196" rx="14" fill="url(#screen)" stroke="#3a3554"/>
+              <rect x="86" y="80" width="180" height="10" rx="5" fill="#4a3f78"/>
+              <rect x="86" y="100" width="120" height="8" rx="4" fill="#2f2b47"/>
+              <rect x="86" y="150" width="298" height="1" fill="#332e4e"/>
+              <circle cx="132" cy="196" r="24" fill="#7c5cff"/>
+              <path d="M127 186v20l16-10-16-10Z" fill="#fff"/>
+              <rect x="172" y="188" width="200" height="8" rx="4" fill="#3a3554"/>
+              <rect x="172" y="188" width="126" height="8" rx="4" fill="#ffb547"/>
+              <circle cx="298" cy="192" r="7" fill="#ffb547"/>
+              <rect x="86" y="224" width="60" height="7" rx="3.5" fill="#332e4e"/>
+              <rect x="154" y="224" width="44" height="7" rx="3.5" fill="#332e4e"/>
+              <rect x="206" y="224" width="70" height="7" rx="3.5" fill="#332e4e"/>
+            </g>
+            <!-- 浮动标签 -->
+            <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#cfd6e6">
+              <rect x="356" y="286" width="126" height="30" rx="15" fill="#161a24" stroke="#2c3242"/>
+              <text x="370" y="305">北欧悬疑 · 8 部</text>
+              <rect x="70" y="286" width="140" height="30" rx="15" fill="#161a24" stroke="#2c3242"/>
+              <text x="84" y="305">英伦剧情 · 12 部</text>
+            </g>
+          </svg>
+          <div class="badge"><span class="pulse"></span>正在播放：《北境暗流》第 6 集 · 1080P</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 三栏门户布局 -->
+    <div class="container layout">
+
+      <!-- 左栏：频道索引 -->
+      <aside class="col-left" aria-label="频道索引">
+        <div class="side-card">
+          <p class="side-title">内容频道</p>
+          <ul class="chan-list">
+            <li><a href="/#categories">北欧悬疑 <span class="c">186</span></a></li>
+            <li><a href="/#categories">英伦剧情 <span class="c">242</span></a></li>
+            <li><a href="/#categories">法式文艺 <span class="c">158</span></a></li>
+            <li><a href="/#categories">德奥历史剧 <span class="c">96</span></a></li>
+            <li><a href="/#categories">南欧喜剧 <span class="c">121</span></a></li>
+            <li><a href="/#categories">欧洲纪录片 <span class="c">174</span></a></li>
+            <li><a href="/#categories">欧洲电影 <span class="c">263</span></a></li>
+            <li><a href="/#categories">音乐现场 <span class="c">46</span></a></li>
+            <li><a href="/#updates">今日更新 <span class="c">11</span></a></li>
+            <li><a href="/#rank">本周热榜 <span class="c">Top10</span></a></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <p class="side-title">快捷筛选</p>
+          <ul class="chan-list">
+            <li><a href="/#picks">2026 新剧</a></li>
+            <li><a href="/#picks">高分纪录片</a></li>
+            <li><a href="/#deep">类型对照</a></li>
+            <li><a href="/#guide">入门路径</a></li>
+            <li><a href="/#faq">更新规则</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- 中栏：主内容 -->
+      <div class="main-col" id="mainContent">
+
+        <!-- 板块 1：主题领域概览 -->
+        <section class="section" id="overview" aria-labelledby="overview-title">
+          <div class="section-head">
+            <div>
+              <h2 id="overview-title">欧洲剧集与电影内容概览</h2>
+              <p class="sub">从北欧到南欧，按国家与类型梳理当前可看的内容方向</p>
+            </div>
+          </div>
+          <div class="panel overview-text">
+            <p><strong>欧洲一久久一久久一免费在线播放</strong>所指向的内容，通常以国家与语言为第一层划分：北欧五国的犯罪悬疑偏冷峻写实，英国擅长长篇剧情与文学改编，法国以作者电影和都市情感见长，德国与奥地利的历史剧重视制度与家族叙事，意大利、西班牙则贡献大量喜剧与家庭题材。按这个框架去看，能更快判断一部作品的气质。</p>
+            <p>当前值得关注的方向集中在三条线上。第一条是<strong>北欧悬疑剧</strong>的持续输出，2026 年秋季档有《北境暗流》《峡湾证词》等新作，节奏偏慢但氛围扎实。第二条是<strong>英伦剧情片</strong>的文学改编潮，如《雾中花冠》《伦敦书信》系列，适合喜欢台词密度高的观众。第三条是<strong>德奥历史剧</strong>的精细置景趋势，《王冠与铁轨》《银盐年代》把家族史和时代史叠在一起，对历史细节的还原度较高。</p>
+            <p>电影方面，法式文艺与南欧喜剧构成两种相反的观看体验：前者重情绪与留白，后者重对话与生活感。纪录片则集中在自然、城市与工艺三个题材，适合作为长剧之间的调节。整体上，这个内容领域的更新节奏以周为单位，剧集多在周四、周五更新，电影与纪录片的上线时间更分散。</p>
+            <p>对第一次接触的观众来说，建议先确定想看的是“氛围”还是“情节”：偏氛围的从法式文艺和北欧悬疑入手，偏情节的从英伦剧情和德奥历史剧入手。下面的精选、更新、分类与深度解析都围绕这个判断展开。</p>
+          </div>
+        </section>
+
+        <!-- 板块 2：精选内容推荐 -->
+        <section class="section" id="picks" aria-labelledby="picks-title">
+          <div class="section-head">
+            <div>
+              <h2 id="picks-title">精选内容推荐</h2>
+              <p class="sub">2026 年 11 月可看的具体条目，含类型、看点与热度</p>
+            </div>
+            <a class="more" href="/#updates">查看全部更新</a>
+          </div>
+          <div class="card-grid" id="pickGrid">
+
+            <article class="card" data-title="北境暗流 北欧悬疑剧" data-tags="北欧悬疑 犯罪 剧集">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/beijing-anliu01/400/300" alt="《北境暗流》峡湾小镇悬疑剧封面" width="400" height="300" loading="lazy" />
+                <span class="type">剧集</span><span class="score">8.7</span>
+              </div>
+              <div class="card-body">
+                <h3>北境暗流</h3>
+                <p>挪威峡湾小镇的一起沉船案牵出二十年前的旧档案，双线叙事在第六集完成第一次交汇，摄影大量使用自然冷光。</p>
+                <div class="card-tags"><span class="tag-sm">北欧悬疑</span><span class="tag-sm">犯罪</span><span class="tag-sm">双线叙事</span></div>
+                <div class="card-meta"><span>更新至第 6 集</span><span class="hot">热度 9.2k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="雾中花冠 英伦剧情片" data-tags="英伦剧情 文学改编 电影">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/wuzhong-huaguan02/400/300" alt="《雾中花冠》英伦庄园文学改编电影剧照" width="400" height="300" loading="lazy" />
+                <span class="type">电影</span><span class="score">8.4</span>
+              </div>
+              <div class="card-body">
+                <h3>雾中花冠</h3>
+                <p>改编自战后英国小说，围绕一座庄园的继承权展开，台词密度高，室内调度讲究，适合喜欢慢节奏对白的观众。</p>
+                <div class="card-tags"><span class="tag-sm">英伦剧情</span><span class="tag-sm">文学改编</span><span class="tag-sm">庄园题材</span></div>
+                <div class="card-meta"><span>2026-11-20 上线</span><span class="hot">热度 7.8k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="巴黎左岸 法式文艺剧" data-tags="法式文艺 都市情感 剧集">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/bali-zuoan03/400/300" alt="《巴黎左岸》法式文艺都市情感剧封面" width="400" height="300" loading="lazy" />
+                <span class="type">剧集</span><span class="score">8.1</span>
+              </div>
+              <div class="card-body">
+                <h3>巴黎左岸</h3>
+                <p>以一家旧书店为轴心，串联五位常客的日常，采用单集单视角结构，第三集开始进入主线情感关系。</p>
+                <div class="card-tags"><span class="tag-sm">法式文艺</span><span class="tag-sm">都市情感</span><span class="tag-sm">单元剧</span></div>
+                <div class="card-meta"><span>更新至第 3 集</span><span class="hot">热度 6.4k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="王冠与铁轨 德奥历史剧" data-tags="德奥历史剧 家族史 剧集">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/wangguan-tiegui04/400/300" alt="《王冠与铁轨》德奥历史剧铁路家族封面" width="400" height="300" loading="lazy" />
+                <span class="type">剧集</span><span class="score">8.9</span>
+              </div>
+              <div class="card-body">
+                <h3>王冠与铁轨</h3>
+                <p>以十九世纪末铁路建设为背景，讲一个家族在工业化浪潮中的分裂，置景与服装考据细致，适合历史剧爱好者。</p>
+                <div class="card-tags"><span class="tag-sm">德奥历史剧</span><span class="tag-sm">家族史</span><span class="tag-sm">工业化</span></div>
+                <div class="card-meta"><span>全 8 集已上线</span><span class="hot">热度 8.5k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="峡湾证词 北欧悬疑" data-tags="北欧悬疑 法庭 剧集">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/xiawan-zhengci05/400/300" alt="《峡湾证词》北欧法庭悬疑剧封面" width="400" height="300" loading="lazy" />
+                <span class="type">剧集</span><span class="score">8.3</span>
+              </div>
+              <div class="card-body">
+                <h3>峡湾证词</h3>
+                <p>把法庭戏和海岸调查并置，前半程靠证词推进，后半程转向现场重建，对白克制，证据链是主要看点。</p>
+                <div class="card-tags"><span class="tag-sm">北欧悬疑</span><span class="tag-sm">法庭</span><span class="tag-sm">证据链</span></div>
+                <div class="card-meta"><span>更新至第 4 集</span><span class="hot">热度 5.9k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="银盐年代 德奥历史剧" data-tags="德奥历史剧 摄影 剧集">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/yinyan-niandai06/400/300" alt="《银盐年代》摄影题材德奥历史剧封面" width="400" height="300" loading="lazy" />
+                <span class="type">剧集</span><span class="score">8.6</span>
+              </div>
+              <div class="card-body">
+                <h3>银盐年代</h3>
+                <p>围绕早期摄影工作室展开，用胶片工艺串起城市变迁，画面质感偏暖，适合对工艺与影像史感兴趣的观众。</p>
+                <div class="card-tags"><span class="tag-sm">德奥历史剧</span><span class="tag-sm">摄影</span><span class="tag-sm">城市变迁</span></div>
+                <div class="card-meta"><span>全 6 集已上线</span><span class="hot">热度 6.1k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="南欧夏日餐桌 南欧喜剧" data-tags="南欧喜剧 家庭 剧集">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/nanou-xiari07/400/300" alt="《南欧夏日餐桌》南欧家庭喜剧封面" width="400" height="300" loading="lazy" />
+                <span class="type">剧集</span><span class="score">7.9</span>
+              </div>
+              <div class="card-body">
+                <h3>南欧夏日餐桌</h3>
+                <p>意大利南部一家餐馆的三代同堂故事，节奏轻快，冲突多来自餐桌对话，适合作为长剧之间的轻松调节。</p>
+                <div class="card-tags"><span class="tag-sm">南欧喜剧</span><span class="tag-sm">家庭</span><span class="tag-sm">餐馆题材</span></div>
+                <div class="card-meta"><span>更新至第 9 集</span><span class="hot">热度 4.7k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="阿尔卑斯四季 欧洲纪录片" data-tags="欧洲纪录片 自然 纪录">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/aerbeisi-siji08/400/300" alt="《阿尔卑斯四季》欧洲自然纪录片封面" width="400" height="300" loading="lazy" />
+                <span class="type">纪录片</span><span class="score">9.1</span>
+              </div>
+              <div class="card-body">
+                <h3>阿尔卑斯四季</h3>
+                <p>按春夏秋冬四段拍摄同一片山谷，记录雪线变化与牧业节奏，旁白克制，适合喜欢自然题材的观众。</p>
+                <div class="card-tags"><span class="tag-sm">欧洲纪录片</span><span class="tag-sm">自然</span><span class="tag-sm">四季</span></div>
+                <div class="card-meta"><span>2026-11-18 上线</span><span class="hot">热度 7.2k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="伦敦书信 英伦剧情" data-tags="英伦剧情 书信体 电影">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/lundun-shuxin09/400/300" alt="《伦敦书信》英伦书信体电影封面" width="400" height="300" loading="lazy" />
+                <span class="type">电影</span><span class="score">8.2</span>
+              </div>
+              <div class="card-body">
+                <h3>伦敦书信</h3>
+                <p>以两组往来书信结构影片，时间跨越十年，场景集中在公寓与车站，情绪推进依靠信件内容的逐层揭示。</p>
+                <div class="card-tags"><span class="tag-sm">英伦剧情</span><span class="tag-sm">书信体</span><span class="tag-sm">时间跨度</span></div>
+                <div class="card-meta"><span>2026-11-12 上线</span><span class="hot">热度 5.5k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="里斯本夜车 南欧喜剧电影" data-tags="南欧喜剧 公路 电影">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/lisiben-yche10/400/300" alt="《里斯本夜车》南欧公路喜剧电影封面" width="400" height="300" loading="lazy" />
+                <span class="type">电影</span><span class="score">7.7</span>
+              </div>
+              <div class="card-body">
+                <h3>里斯本夜车</h3>
+                <p>一列夜班火车上的陌生人对话，用五个段落讲完一段旅程，笑点来自语言差异和误会，结尾收得温情。</p>
+                <div class="card-tags"><span class="tag-sm">南欧喜剧</span><span class="tag-sm">公路</span><span class="tag-sm">语言梗</span></div>
+                <div class="card-meta"><span>2026-11-08 上线</span><span class="hot">热度 4.1k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="北极圈档案 欧洲纪录片" data-tags="欧洲纪录片 城市 纪录">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/beijiquan-dangan11/400/300" alt="《北极圈档案》欧洲城市纪录片封面" width="400" height="300" loading="lazy" />
+                <span class="type">纪录片</span><span class="score">8.8</span>
+              </div>
+              <div class="card-body">
+                <h3>北极圈档案</h3>
+                <p>记录极圈内三座小城的冬季日常，从供暖系统到渔业调度，用具体工种展示城市如何运转。</p>
+                <div class="card-tags"><span class="tag-sm">欧洲纪录片</span><span class="tag-sm">城市</span><span class="tag-sm">极地生活</span></div>
+                <div class="card-meta"><span>2026-11-05 上线</span><span class="hot">热度 6.6k</span></div>
+              </div>
+            </article>
+
+            <article class="card" data-title="维也纳排练厅 音乐现场" data-tags="音乐现场 古典 纪录">
+              <div class="card-thumb">
+                <img src="https://picsum.photos/seed/weiyena-pailian12/400/300" alt="《维也纳排练厅》古典音乐排练现场封面" width="400" height="300" loading="lazy" />
+                <span class="type">纪录片</span><span class="score">8.5</span>
+              </div>
+              <div class="card-body">
+                <h3>维也纳排练厅</h3>
+                <p>跟拍一支室内乐团从选曲到登台的六周，重点在排练中的调整与分歧，适合对古典音乐幕后感兴趣的观众。</p>
+                <div class="card-tags"><span class="tag-sm">音乐现场</span><span class="tag-sm">古典</span><span class="tag-sm">幕后</span></div>
+                <div class="card-meta"><span>2026-11-01 上线</span><span class="hot">热度 3.9k</span></div>
+              </div>
+            </article>
+
+          </div>
+          <div class="no-result" id="noResult">没有找到匹配的条目，试试“悬疑”“历史剧”或国家名，例如“挪威”。</div>
+        </section>
+
+        <!-- 板块 3：最新更新 -->
+        <section class="section" id="updates" aria-labelledby="updates-title">
+          <div class="section-head">
+            <div>
+              <h2 id="updates-title">最新更新与热播动态</h2>
+              <p class="sub">截至 2026 年 11 月 25 日的具体条目变动</p>
+            </div>
+            <a class="more" href="/#categories">按类型查看</a>
+          </div>
+          <div class="panel">
+            <div class="update-grid">
+              <div class="update-item">
+                <a class="u-title" href="/#picks">北境暗流</a>
+                <span class="u-time">今天 09:30</span>
+                <span class="u-desc">第 6 集上线，沉船案与旧档案完成第一次交汇，时长 52 分钟。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">巴黎左岸</a>
+                <span class="u-time">今天 08:10</span>
+                <span class="u-desc">第 3 集上线，主线情感关系进入第二阶段，新增一位常客角色。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">王冠与铁轨</a>
+                <span class="u-time">昨天 21:40</span>
+                <span class="u-desc">全 8 集完整版上线，补充了第 5 集的两段家族会议场景。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">峡湾证词</a>
+                <span class="u-time">昨天 20:15</span>
+                <span class="u-desc">第 4 集上线，法庭戏转为现场重建，证据链出现新节点。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">阿尔卑斯四季</a>
+                <span class="u-time">11 月 23 日</span>
+                <span class="u-desc">冬季篇 4K 版本上线，新增 12 分钟雪线变化延时素材。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">雾中花冠</a>
+                <span class="u-time">11 月 20 日</span>
+                <span class="u-desc">正式上线，提供英文字幕与中文对照字幕两个版本。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">银盐年代</a>
+                <span class="u-time">11 月 19 日</span>
+                <span class="u-desc">全 6 集上线，片尾追加摄影工艺说明短片，每集约 4 分钟。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">南欧夏日餐桌</a>
+                <span class="u-time">11 月 17 日</span>
+                <span class="u-desc">更新至第 9 集，本集以餐馆周年庆为主要场景。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">伦敦书信</a>
+                <span class="u-time">11 月 12 日</span>
+                <span class="u-desc">上线，附导演关于书信体结构的 8 分钟访谈。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">里斯本夜车</a>
+                <span class="u-time">11 月 8 日</span>
+                <span class="u-desc">上线，提供葡语原声与中文配音两个音轨。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">北极圈档案</a>
+                <span class="u-time">11 月 5 日</span>
+                <span class="u-desc">上线，冬季城市篇三集同步更新，含供暖系统专题。</span>
+              </div>
+              <div class="update-item">
+                <a class="u-title" href="/#picks">维也纳排练厅</a>
+                <span class="u-time">11 月 1 日</span>
+                <span class="u-desc">上线，完整记录六周排练过程，含最终登台现场。</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 板块 4：分类入口 -->
+        <section class="section" id="categories" aria-labelledby="categories-title">
+          <div class="section-head">
+            <div>
+              <h2 id="categories-title">分类入口</h2>
+              <p class="sub">按用户常搜的类别词直接定位频道</p>
+            </div>
+          </div>
+          <div class="cat-grid">
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">北欧悬疑</span>
+              <span class="c-desc">挪威、瑞典、丹麦的犯罪与法庭题材，节奏偏慢、氛围扎实。</span>
+              <span class="c-count">186 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">英伦剧情</span>
+              <span class="c-desc">文学改编、庄园题材与长篇对白剧，台词密度高。</span>
+              <span class="c-count">242 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">法式文艺</span>
+              <span class="c-desc">作者电影与都市情感剧，重情绪与留白。</span>
+              <span class="c-count">158 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">德奥历史剧</span>
+              <span class="c-desc">家族史与制度史交织，置景与服装考据细致。</span>
+              <span class="c-count">96 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">南欧喜剧</span>
+              <span class="c-desc">意大利、西班牙、葡萄牙的家庭与餐馆题材。</span>
+              <span class="c-count">121 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">欧洲纪录片</span>
+              <span class="c-desc">自然、城市与工艺三个方向，适合调节观看节奏。</span>
+              <span class="c-count">174 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">欧洲电影</span>
+              <span class="c-desc">院线片与影展片，含作者电影与类型片。</span>
+              <span class="c-count">263 部条目</span>
+            </a>
+            <a class="cat-card" href="/#picks">
+              <span class="c-name">音乐现场</span>
+              <span class="c-desc">古典排练、音乐会与音乐节幕后记录。</span>
+              <span class="c-count">46 部条目</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- 板块 5：深度解析 -->
+        <section class="section deep" id="deep" aria-labelledby="deep-title">
+          <div class="section-head">
+            <div>
+              <h2 id="deep-title">深度解析：欧洲剧集的类型差异与判断维度</h2>
+              <p class="sub">从叙事结构、更新节奏与制作传统三个角度比较</p>
+            </div>
+          </div>
+          <div class="panel">
+            <h3>北欧悬疑与英伦剧情的结构差异</h3>
+            <p>北欧悬疑通常采用“单案贯穿 + 社会背景”的结构，调查线是主干，人物关系围绕案件展开。《北境暗流》把沉船案与二十年前的旧档案并置，前六集里两条线各自推进，观众需要自己记住时间标记；《峡湾证词》则把法庭戏和海岸调查交替剪辑，证词与现场互为验证。这类剧的看点在于信息如何被逐步释放，而不是单集内的强反转。</p>
+            <p>英伦剧情更依赖人物关系网和台词推进。《雾中花冠》的核心冲突是继承权，但它把大量篇幅放在家族成员之间的对话上，场景集中在庄园内部；《伦敦书信》用两组往来书信结构影片，时间跨度十年，情绪靠信件内容的逐层揭示完成。判断这两类内容时，可以先看自己更适应“信息密度”还是“关系密度”。</p>
+
+            <h3>德奥历史剧的考据重点</h3>
+            <p>德奥历史剧的辨识度主要来自置景与制度细节。《王冠与铁轨》以十九世纪末铁路建设为背景，剧中反复出现工程图纸、股东大会和铁路时刻表，这些具体物件承担了叙事功能；《银盐年代》围绕早期摄影工作室，用胶片工艺串起城市变迁，显影、定影的流程都有实拍呈现。看这类剧时，可以把“考据密度”作为判断标准：道具、服装、行业术语是否经得起细看。</p>
+
+            <h3>法式文艺与南欧喜剧的观看节奏</h3>
+            <p>法式文艺偏重情绪与留白，《巴黎左岸》采用单集单视角结构，每集只跟随一位常客，前三集几乎没有强情节，第三集之后才开始收拢主线。南欧喜剧则相反，靠对话和生活场景推进，《南欧夏日餐桌》的冲突几乎都发生在餐桌上，《里斯本夜车》用五个段落讲完一段旅程，笑点来自语言差异。两者适合不同的观看状态：前者适合安静时段，后者适合需要轻松氛围的时候。</p>
+
+            <div class="callout">
+              判断一个条目是否值得投入时间，可以看三个具体信号：<strong>更新是否稳定</strong>（是否按周更新、有无断更记录）、<strong>类型标签是否具体</strong>（写“北欧悬疑”比写“剧情”更有参考价值）、<strong>制作信息是否完整</strong>（导演、摄影、编剧是否有可查作品）。这三项在条目页都能找到对应字段。
+            </div>
+
+            <h3>纪录片作为长剧之间的调节</h3>
+            <p>欧洲纪录片集中在自然、城市与工艺三个题材。《阿尔卑斯四季》按四季拍摄同一片山谷，记录雪线变化与牧业节奏；《北极圈档案》拍极圈内三座小城的冬季日常，从供暖系统到渔业调度，用具体工种展示城市如何运转；《维也纳排练厅》跟拍一支室内乐团从选曲到登台的六周。这类内容的共同点是节奏平稳、信息具体，适合在两部长剧之间作为缓冲。</p>
+
+            <h3>类型组合的取舍建议</h3>
+            <ul>
+              <li>想追强情节：优先北欧悬疑与英伦剧情，单集信息量大，适合连续观看。</li>
+              <li>想放松：从南欧喜剧和自然纪录片入手，单集体量轻，中断成本低。</li>
+              <li>想看制作细节：德奥历史剧和音乐现场纪录片，考据与幕后内容更充分。</li>
+              <li>想调节情绪：法式文艺适合单独安排时段，不建议与其他强情节内容连看。</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 板块 6：体验指南 -->
+        <section class="section" id="guide" aria-labelledby="guide-title">
+          <div class="section-head">
+            <div>
+              <h2 id="guide-title">观看路径与选择指南</h2>
+              <p class="sub">先看什么类型、怎么判断一部条目是否值得投入时间</p>
+            </div>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <div>
+                <h4>先确定观看状态，再选类型</h4>
+                <p>需要连续追看时选北欧悬疑或英伦剧情；想轻松一点时选南欧喜剧；只想看一段安静内容时选法式文艺或自然纪录片。状态决定类型，比先看榜单更有效。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h4>用单集时长和更新方式判断投入成本</h4>
+                <p>北欧悬疑单集多在 50 分钟以上，德奥历史剧单集接近一小时；南欧喜剧单集通常 30 分钟左右。周更剧适合固定时间追，全季上线的更适合集中观看。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h4>比较同类条目时看制作信息</h4>
+                <p>同样是历史剧，《王冠与铁轨》偏制度与家族，《银盐年代》偏工艺与城市，先看导演过往作品和摄影风格，比只看评分更能判断是否合口味。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h4>把纪录片放在长剧之间</h4>
+                <p>《阿尔卑斯四季》《北极圈档案》这类内容信息具体、情绪平稳，适合在密集剧情之后作为缓冲，也适合作为碎片时间的观看选择。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h4>不确定时从短条目试起</h4>
+                <p>第一次接触法式文艺，可以先看单集 30 分钟左右的都市情感剧；第一次看德奥历史剧，可以先看 6 集的《银盐年代》，再决定是否进入 8 集体量的长篇。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 板块 7：FAQ -->
+        <section class="section faq" id="faq" aria-labelledby="faq-title">
+          <div class="section-head">
+            <div>
+              <h2 id="faq-title">常见问题</h2>
+              <p class="sub">围绕类型差异、更新节奏与入门选择</p>
+            </div>
+          </div>
+
+          <details>
+            <summary>北欧悬疑剧一般多久更新一次？</summary>
+            <div class="a">多数北欧悬疑剧采用周更，单周更新一集，个别平台会在中段一次放出两集。《北境暗流》目前是每周四更新，第六集于 2026 年 11 月 25 日上线；《峡湾证词》为每周二更新。全季上线的作品通常集中在季末，适合一次性看完。</div>
+          </details>
+
+          <details>
+            <summary>北欧悬疑和英伦剧情的主要区别是什么？</summary>
+            <div class="a">北欧悬疑以案件为叙事主干，调查线贯穿全季，人物关系围绕案件展开，节奏偏慢但信息密度高；英伦剧情以人物关系网为核心，靠台词和场景推进，单集内的冲突更集中。<b>《北境暗流》</b>属于前者，<b>《雾中花冠》</b>属于后者。</div>
+          </details>
+
+          <details>
+            <summary>第一次接触欧洲剧集，从哪一部开始看比较好？</summary>
+            <div class="a">可以先从体量短、结构清晰的开始。喜欢悬疑的看《峡湾证词》，法庭戏为主，四集即可判断是否合口味；想看历史题材的从《银盐年代》入手，共 6 集；想轻松的看《南欧夏日餐桌》，单集 30 分钟，进入成本低。</div>
+          </details>
+
+          <details>
+            <summary>德奥历史剧的评判标准通常是什么？</summary>
+            <div class="a">主要看三项：置景与服装的考据密度、行业术语与制度细节是否准确、家族史与时代史的配比是否合理。《王冠与铁轨》在铁路工程细节上较为扎实，《银盐年代》在摄影工艺上有实拍呈现，这两项是同类作品里比较有辨识度的指标。</div>
+          </details>
+
+          <details>
+            <summary>法式文艺电影和南欧喜剧怎么选？</summary>
+            <div class="a">看观看状态。法式文艺偏情绪与留白，适合安静时段单独观看；南欧喜剧靠对话和生活场景推进，适合需要轻松氛围时看。<b>《巴黎左岸》</b>属于前者，<b>《里斯本夜车》</b>属于后者。</div>
+          </details>
+
+          <details>
+            <summary>欧洲纪录片一般包含哪些题材？</summary>
+            <div class="a">常见三类：自然题材（如《阿尔卑斯四季》）、城市与生活题材（如《北极圈档案》）、工艺与艺术题材（如《维也纳排练厅》）。自然题材偏视觉，城市题材偏具体工种与系统运转，工艺题材偏幕后流程，可以按兴趣选择。</div>
+          </details>
+        </section>
+
+        <!-- 板块 8：用户评论 -->
+        <section class="section" id="comments" aria-labelledby="comments-title">
+          <div class="section-head">
+            <div>
+              <h2 id="comments-title">用户评论</h2>
+              <p class="sub">来自具体条目的观后反馈</p>
+            </div>
+          </div>
+          <div class="comment-grid">
+            <div class="comment">
+              <div class="c-head"><span class="avatar">林</span><span class="nick">林间有雾</span><span class="c-time">今天 10:12</span></div>
+              <p>《北境暗流》第六集两条线终于对上了，前五集埋的时间标记确实有用，建议看的时候记一下年份。</p>
+              <span class="c-tag">北境暗流</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">阿</span><span class="nick">阿澈不是茶</span><span class="c-time">今天 09:48</span></div>
+              <p>《巴黎左岸》第三集开始好看，前两集单视角有点散，第三集把关系收拢之后节奏明显顺了。</p>
+              <span class="c-tag">巴黎左岸</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">沉</span><span class="nick">沉船打捞员</span><span class="c-time">今天 09:05</span></div>
+              <p>《峡湾证词》的法庭戏台词写得克制，证据链推进比很多同类剧严谨，就是更新有点慢。</p>
+              <span class="c-tag">峡湾证词</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">北</span><span class="nick">北纬六十度</span><span class="c-time">昨天 22:31</span></div>
+              <p>《王冠与铁轨》的铁路图纸细节很到位，家族会议那两场戏补完之后人物动机清楚多了。</p>
+              <span class="c-tag">王冠与铁轨</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">苏</span><span class="nick">苏黎世下雨</span><span class="c-time">昨天 21:50</span></div>
+              <p>《银盐年代》显影那段拍得很细，作为摄影爱好者看得很满足，就是篇幅偏短，六集不太够。</p>
+              <span class="c-tag">银盐年代</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">M</span><span class="nick">Momo在里斯本</span><span class="c-time">昨天 20:16</span></div>
+              <p>《里斯本夜车》的笑点挺自然的，语言误会那段笑了好久，结尾收得也稳。</p>
+              <span class="c-tag">里斯本夜车</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">海</span><span class="nick">海边旧书店</span><span class="c-time">11 月 24 日</span></div>
+              <p>《雾中花冠》台词密度确实高，但室内调度好看，喜欢慢节奏对白的值得看。</p>
+              <span class="c-tag">雾中花冠</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">小</span><span class="nick">小满与雪山</span><span class="c-time">11 月 24 日</span></div>
+              <p>《阿尔卑斯四季》冬季篇的延时素材很值，雪线变化那段建议大屏看。</p>
+              <span class="c-tag">阿尔卑斯四季</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">安</span><span class="nick">安特卫普的钟</span><span class="c-time">11 月 23 日</span></div>
+              <p>《南欧夏日餐桌》适合吃饭的时候看，不用太集中注意力，第九集周年庆那段挺温馨。</p>
+              <span class="c-tag">南欧夏日餐桌</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">陈</span><span class="nick">陈年胶片</span><span class="c-time">11 月 22 日</span></div>
+              <p>《维也纳排练厅》里排练分歧那段比登台还好看，能看出乐团怎么磨合。</p>
+              <span class="c-tag">维也纳排练厅</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">极</span><span class="nick">极光观测站</span><span class="c-time">11 月 21 日</span></div>
+              <p>《北极圈档案》讲供暖系统那集很具体，比一般城市纪录片务实。</p>
+              <span class="c-tag">北极圈档案</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">言</span><span class="nick">言不及义</span><span class="c-time">11 月 20 日</span></div>
+              <p>《伦敦书信》的书信体结构有点冒险，但两组信件的节奏对上了，看完想再看一遍。</p>
+              <span class="c-tag">伦敦书信</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">柏</span><span class="nick">柏林地铁口</span><span class="c-time">11 月 19 日</span></div>
+              <p>德奥历史剧整体质量稳定，但有些作品节奏太慢，《王冠与铁轨》算控制得比较好的。</p>
+              <span class="c-tag">德奥历史剧</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">图</span><span class="nick">图卢兹的猫</span><span class="c-time">11 月 18 日</span></div>
+              <p>法式文艺看多了会有点闷，建议和南欧喜剧交替着看，节奏刚好。</p>
+              <span class="c-tag">法式文艺</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">S</span><span class="nick">Saga读剧</span><span class="c-time">11 月 17 日</span></div>
+              <p>北欧悬疑的冷光摄影确实好看，但连续看几部会觉得像，建议中间穿插别的类型。</p>
+              <span class="c-tag">北欧悬疑</span>
+            </div>
+            <div class="comment">
+              <div class="c-head"><span class="avatar">橘</span><span class="nick">橘子汽水冰</span><span class="c-time">11 月 16 日</span></div>
+              <p>《峡湾证词》第四集现场重建那段拍得不错，证据链一下子清楚了。</p>
+              <span class="c-tag">峡湾证词</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 板块 9：相关资讯 -->
+        <section class="section" id="news" aria-labelledby="news-title">
+          <div class="section-head">
+            <div>
+              <h2 id="news-title">相关资讯</h2>
+              <p class="sub">11 月以来的条目上线与社区讨论焦点</p>
+            </div>
+          </div>
+          <div class="news-list">
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/zixun-beijing06/600/400" alt="《北境暗流》第六集上线资讯配图" width="600" height="400" loading="lazy" />
+              <div class="news-body">
+                <span class="n-date">2026-11-25</span>
+                <h4>《北境暗流》第六集上线，沉船案与旧档案完成交汇</h4>
+                <p>本集时长 52 分钟，两条时间线在同一份档案上完成第一次对接，后续将进入法庭阶段。</p>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/zixun-balizuoan07/600/400" alt="《巴黎左岸》第三集主线推进资讯配图" width="600" height="400" loading="lazy" />
+              <div class="news-body">
+                <span class="n-date">2026-11-25</span>
+                <h4>《巴黎左岸》第三集上线，单视角结构开始收拢主线</h4>
+                <p>新增一位常客角色，旧书店的空间布局在本集首次完整呈现，后续将以双视角交替推进。</p>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/zixun-wangguan08/600/400" alt="《王冠与铁轨》完整版上线资讯配图" width="600" height="400" loading="lazy" />
+              <div class="news-body">
+                <span class="n-date">2026-11-24</span>
+                <h4>《王冠与铁轨》全 8 集完整版上线，补充两段家族会议场景</h4>
+                <p>补充内容集中在第 5 集，涉及铁路股权分配的关键讨论，完整版时长增加约 11 分钟。</p>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/zixun-xiawan09/600/400" alt="《峡湾证词》法庭戏转向现场重建资讯配图" width="600" height="400" loading="lazy" />
+              <div class="news-body">
+                <span class="n-date">2026-11-24</span>
+                <h4>《峡湾证词》第四集转向现场重建，证据链出现新节点</h4>
+                <p>法庭戏比重下降，海岸调查线占比提升，制作方表示后半季将回到证词与物证对照的结构。</p>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/zixun-aerbeisi10/600/400" alt="《阿尔卑斯四季》冬季篇 4K 上线资讯配图" width="600" height="400" loading="lazy" />
+              <div class="news-body">
+                <span class="n-date">2026-11-23</span>
+                <h4>《阿尔卑斯四季》冬季篇 4K 版本上线，新增雪线延时素材</h4>
+                <p>新增约 12 分钟素材，主要记录同一山谷在初雪与深冬两个阶段的可见变化。</p>
+              </div>
+            </article>
+            <article class="news-item">
+              <img src="https://picsum.photos/seed/zixun-yinyan11/600/400" alt="《银盐年代》摄影工艺短片追加资讯配图" width="600" height="400" loading="lazy" />
+              <div class="news-body">
+                <span class="n-date">2026-11-19</span>
+                <h4>《银盐年代》追加摄影工艺说明短片，每集约 4 分钟</h4>
+                <p>短片由剧组摄影指导出镜，讲解显影、定影流程与当时的设备条件，随正片一同上线。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 板块 10：相关推荐 -->
+        <section class="section" id="related" aria-labelledby="related-title">
+          <div class="section-head">
+            <div>
+              <h2 id="related-title">相关推荐</h2>
+              <p class="sub">延伸方向与具体内容索引</p>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="tag-index">
+              <a href="/#picks">挪威犯罪剧</a>
+              <a href="/#picks">瑞典法庭题材</a>
+              <a href="/#picks">英国文学改编</a>
+              <a href="/#picks">庄园继承题材</a>
+              <a href="/#picks">法国作者电影</a>
+              <a href="/#picks">德国工业化历史</a>
+              <a href="/#picks">奥地利家族史</a>
+              <a href="/#picks">意大利家庭喜剧</a>
+              <a href="/#picks">葡萄牙公路电影</a>
+              <a href="/#picks">欧洲自然纪录片</a>
+              <a href="/#picks">古典音乐幕后</a>
+              <a href="/#picks">极地城市纪录</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 板块 11：补充板块（榜单 + 时间线 + 可信度分层） -->
+        <section class="section" id="rank" aria-labelledby="rank-title">
+          <div class="section-head">
+            <div>
+              <h2 id="rank-title">本周热榜与条目时间线</h2>
+              <p class="sub">按 11 月 18 日至 11 月 25 日的社区热度整理</p>
+            </div>
+          </div>
+
+          <div class="panel" style="margin-bottom:16px;">
+            <ol class="hot-list" style="counter-reset: hot;">
+              <li><a href="/#picks">北境暗流</a><small>北欧悬疑 · 更新至第 6 集 · 热度 9.2k</small></li>
+              <li><a href="/#picks">王冠与铁轨</a><small>德奥历史剧 · 全 8 集 · 热度 8.5k</small></li>
+              <li><a href="/#picks">雾中花冠</a><small>英伦剧情 · 电影 · 热度 7.8k</small></li>
+              <li><a href="/#picks">阿尔卑斯四季</a><small>欧洲纪录片 · 自然 · 热度 7.2k</small></li>
+              <li><a href="/#picks">银盐年代</a><small>德奥历史剧 · 全 6 集 · 热度 6.1k</small></li>
+              <li><a href="/#picks">巴黎左岸</a><small>法式文艺 · 更新至第 3 集 · 热度 6.4k</small></li>
+              <li><a href="/#picks">峡湾证词</a><small>北欧悬疑 · 更新至第 4 集 · 热度 5.9k</small></li>
+              <li><a href="/#picks">伦敦书信</a><small>英伦剧情 · 电影 · 热度 5.5k</small></li>
+              <li><a href="/#picks">南欧夏日餐桌</a><small>南欧喜剧 · 更新至第 9 集 · 热度 4.7k</small></li>
+              <li><a href="/#picks">里斯本夜车</a><small>南欧喜剧 · 电影 · 热度 4.1k</small></li>
+            </ol>
+          </div>
+
+          <div class="panel" style="margin-bottom:16px;">
+            <div class="timeline">
+              <div class="tl-item">
+                <div class="tl-date">2026-11-25</div>
+                <div class="tl-title">《北境暗流》第 6 集、《巴黎左岸》第 3 集上线</div>
+                <div class="tl-desc">两条主线分别推进到交汇点与关系收拢阶段。</div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">2026-11-24</div>
+                <div class="tl-title">《王冠与铁轨》完整版、《峡湾证词》第 4 集上线</div>
+                <div class="tl-desc">前者补充家族会议场景，后者完成法庭到现场的视角切换。</div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">2026-11-23</div>
+                <div class="tl-title">《阿尔卑斯四季》冬季篇 4K 版本上线</div>
+                <div class="tl-desc">新增雪线变化延时素材，适合大屏观看。</div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">2026-11-19</div>
+                <div class="tl-title">《银盐年代》追加摄影工艺短片</div>
+                <div class="tl-desc">每集片尾新增约 4 分钟工艺讲解。</div>
+              </div>
+              <div class="tl-item">
+                <div class="tl-date">2026-11-18</div>
+                <div class="tl-title">《阿尔卑斯四季》正式上线</div>
+                <div class="tl-desc">四季结构首周上线春夏两篇，冬季篇随后补齐。</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <p class="side-title" style="margin-bottom:10px;">条目可信度分层</p>
+            <div class="tier-grid">
+              <div class="tier t1">
+                <div class="t-name">A 级 · 信息完整</div>
+                <div class="t-desc">有明确导演、摄影、编剧信息，更新节奏稳定，类型标签具体，如《北境暗流》《王冠与铁轨》。</div>
+              </div>
+              <div class="tier t2">
+                <div class="t-name">B 级 · 信息较完整</div>
+                <div class="t-desc">制作信息基本齐全，但更新或类型标注有一项不够明确，如《巴黎左岸》《南欧夏日餐桌》。</div>
+              </div>
+              <div class="tier t3">
+                <div class="t-name">C 级 · 信息待补</div>
+                <div class="t-desc">条目已上线，但制作信息或更新说明尚不完整，建议先看首集再决定是否追更。</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- 右栏：辅助内容 -->
+      <aside class="col-right" aria-label="辅助信息">
+        <div class="side-card">
+          <p class="side-title">今日更新流</p>
+          <ul class="update-stream">
+            <li><span class="t">09:30</span><a href="/#picks">北境暗流 · 第 6 集</a></li>
+            <li><span class="t">08:10</span><a href="/#picks">巴黎左岸 · 第 3 集</a></li>
+            <li><span class="t">昨天</span><a href="/#picks">王冠与铁轨 · 完整版</a></li>
+            <li><span class="t">昨天</span><a href="/#picks">峡湾证词 · 第 4 集</a></li>
+            <li><span class="t">11-23</span><a href="/#picks">阿尔卑斯四季 · 冬季篇</a></li>
+            <li><span class="t">11-19</span><a href="/#picks">银盐年代 · 工艺短片</a></li>
+          </ul>
+        </div>
+
+        <div class="side-card">
+          <p class="side-title">本周热榜</p>
+          <ol class="hot-list">
+            <li><a href="/#picks">北境暗流</a><small>9.2k 热度 · 8.7 分</small></li>
+            <li><a href="/#picks">王冠与铁轨</a><small>8.5k 热度 · 8.9 分</small></li>
+            <li><a href="/#picks">雾中花冠</a><small>7.8k 热度 · 8.4 分</small></li>
+            <li><a href="/#picks">阿尔卑斯四季</a><small>7.2k 热度 · 9.1 分</small></li>
+            <li><a href="/#picks">巴黎左岸</a><small>6.4k 热度 · 8.1 分</small></li>
+            <li><a href="/#picks">银盐年代</a><small>6.1k 热度 · 8.6 分</small></li>
+          </ol>
+        </div>
+
+        <div class="side-card">
+          <p class="side-title">类型入口</p>
+          <div class="tag-index">
+            <a href="/#categories">悬疑</a>
+            <a href="/#categories">历史剧</a>
+            <a href="/#categories">喜剧</a>
+            <a href="/#categories">纪录片</a>
+            <a href="/#categories">文艺</a>
+            <a href="/#categories">音乐现场</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- 页尾 -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="/#top" aria-label="返回顶部">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Z" stroke="white" stroke-width="1.6"/>
+                <path d="M10 9.2v5.6l4.6-2.8L10 9.2Z" fill="white"/>
+              </svg>
+            </span>
+            <span class="brand-name">欧洲一久久一久久一<span>免费在线播放</span></span>
+          </a>
+          <p class="footer-desc">聚合北欧悬疑、英伦剧情、法式文艺、德奥历史剧与南欧喜剧，提供类型标签、看点摘要与更新节奏，方便按国家与题材定位想看的欧洲内容。</p>
+        </div>
+        <div>
+          <h5>内容频道</h5>
+          <ul>
+            <li><a href="/#categories">北欧悬疑</a></li>
+            <li><a href="/#categories">英伦剧情</a></li>
+            <li><a href="/#categories">法式文艺</a></li>
+            <li><a href="/#categories">德奥历史剧</a></li>
+            <li><a href="/#categories">南欧喜剧</a></li>
+            <li><a href="/#categories">欧洲纪录片</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>发现更多</h5>
+          <ul>
+            <li><a href="/#picks">今日精选</a></li>
+            <li><a href="/#updates">最新更新</a></li>
+            <li><a href="/#deep">深度解析</a></li>
+            <li><a href="/#guide">观看指南</a></li>
+            <li><a href="/#faq">常见问题</a></li>
+            <li><a href="/#rank">本周热榜</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>社区</h5>
+          <ul>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#related">相关推荐</a></li>
+            <li><a href="/#rank">条目时间线</a></li>
+            <li><a href="/#rank">可信度分层</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 欧洲一久久一久久一免费在线播放 · 内容信息以条目页为准</span>
+        <span class="links">
+          <a href="/#overview">内容概览</a>
+          <a href="/#categories">分类说明</a>
+          <a href="/#faq">问答</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var input = document.getElementById('searchInput');
+      var btn = document.getElementById('searchBtn');
+      var grid = document.getElementById('pickGrid');
+      var noResult = document.getElementById('noResult');
+      if (!input || !grid) return;
+
+      var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+
+      function normalize(s) {
+        return (s || '').toLowerCase().replace(/\s+/g, '');
+      }
+
+      function filter() {
+        var q = normalize(input.value);
+        var visible = 0;
+        cards.forEach(function (card) {
+          var hay = normalize(
+            (card.getAttribute('data-title') || '') + ' ' +
+            (card.getAttribute('data-tags') || '') + ' ' +
+            (card.textContent || '')
+          );
+          var show = !q || hay.indexOf(q) !== -1;
+          card.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        if (noResult) {
+          noResult.classList.toggle('show', visible === 0 && q.length > 0);
+        }
+      }
+
+      input.addEventListener('input', filter);
+      btn.addEventListener('click', filter);
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          filter();
+        }
+      });
+
+      // 锚点平滑滚动偏移（兼容不支持 scroll-margin 的环境）
+      document.querySelectorAll('a[href^="/#"]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          var id = a.getAttribute('href').slice(2);
+          if (!id) return;
+          var target = document.getElementById(id);
+          if (!target) return;
+          e.preventDefault();
+          var noticeH = 40, headerH = 68;
+          var top = target.getBoundingClientRect().top + window.pageYOffset - (noticeH + headerH + 16);
+          window.scrollTo({ top: top, behavior: 'smooth' });
+          history.replaceState(null, '', '/#' + id);
+        });
+      });
+    })();
+  </script>
+</body>
+                </html>
